@@ -1,0 +1,96 @@
+@media screen and (max-width:1199px){
+}
+@media screen and (min-width:991.5px)and (max-width:1199px){
+}
+@media screen and (max-width:991.5px) {
+    header{
+        background-color: #000;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link.active {
+    color: #777;
+    }
+    .navbar-toggler > i{
+        color: #fff;
+    }
+    .navbar > a:last-child{
+        display: none;
+    }
+    .Home__img{
+        display: none;
+    }
+    .Home__text{
+        padding: 100px 0;
+        text-align: center;
+    } 
+    .Home__text > p {
+        padding-right: 0;
+    } 
+    .feature-img {
+        padding-bottom: 50px;
+        padding-right: 0;
+    }
+    .card__post{
+        margin-bottom: 40px;
+    }
+    .split{
+        display: none;
+    }
+    .card__real{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991.5px) {
+}
+@media screen and (max-width:767px) {
+    .Home__Video > a:first-child{
+        display: none;
+    }
+    .feature__img{
+        padding-right: 0;
+    }
+    .item__design{
+        margin: 10px;
+    }
+    .text__section p{
+        padding-right: 0;
+    }
+    .card__blog__links{
+        text-align: left;
+    }
+    .text__homeother{
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+    }
+    .form__reply .input__row{
+        flex-direction: column;
+    }
+    .form__reply .input__row:first-child > input{
+        margin: 15px 0 0 0 ;
+    }
+}
+@media screen and (max-width:575.5px) {
+    .card__comment{
+        flex-direction: column;
+        text-align: center;
+    }
+    .right__card{
+        padding-top: 20px;
+    }
+    .left__card{
+        flex-direction: column;
+    }
+    .img__comment{
+        padding-bottom: 20px;
+    }
+    .card__comment:nth-child(3),
+    .card__comment:nth-child(4){
+        padding-left: 0 ;
+    }
+}

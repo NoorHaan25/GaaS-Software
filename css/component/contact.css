@@ -1,0 +1,73 @@
+.map iframe{
+  width: 100%;
+}
+.contact form textarea,
+.contact form input{
+  width: 100%;
+  border: none;
+  border: 1px solid #e5e6e9;
+  color: #495057;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+.contact form textarea:focus,
+.contact form input:focus{
+  outline: none;
+}
+.item-contact{
+  display: flex;
+  padding-left: 60px;
+}
+.item-contact{
+  padding-bottom: 15px;
+}
+.item-contact .icon i{
+  width: 22.5px;
+  background-image: radial-gradient(circle at top left,#8252fa,#eca2f1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+.text-contact h4{
+  font-size: 17px;
+  color: #2a2a2a;
+  font-weight: 600;
+}
+.text-contact{
+  padding-left: 15px;
+}
+.text-contact p{
+  font-size: 15px;
+  margin: 0;
+}
+.parttwo__form .contact__input:last-child > input{
+  width: 50%;
+  border-radius: 6px;
+  display: block;
+  padding: 17px 34px;
+  transition: all 0.3s linear;
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background-image: radial-gradient(circle at top left,#8252fa,#eca2f1);
+}
+.parttwo__form .contact__input:last-child > input::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 3px;
+  background-image: radial-gradient(circle at top left,#8252fa,#eca2f1);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+}
+.parttwo__form .contact__input:last-child > input:hover{
+  background-color: #fff;
+  color: #000;
+  background-image: unset;
+}

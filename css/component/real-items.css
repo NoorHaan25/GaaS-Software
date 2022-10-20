@@ -1,0 +1,91 @@
+.Real{
+  background-image: url(../../img/real\ bg.webp);
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.card__real{
+  border: 2px solid #eeeeee;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #fff;
+  transition: border 0.3s linear;
+}
+.card__real::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: radial-gradient(circle at top left,#8252fa,#eca2f1);
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  transform: translate(-50%,-50%);
+  border-radius: 3px;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.card__real:hover{
+  border: none;
+}
+.card__real:hover::before{
+  opacity: 1;
+}
+.card__real h3{
+  color: #000;
+  background-color: #fff;
+  padding: 35px 0;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #eeeeee;
+  transition: all 0.3s linear;
+}
+.card__real:hover > h3{
+  background-image: linear-gradient(90deg,#8252fa 0%,#eca2f1 100%);
+  color: #fff;
+}
+.card__real ul{
+  padding: 35px 0;
+}
+.card__real ul li{
+  padding-bottom: 10px;
+}
+.card__real ul li a{
+  color: #666666;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card__real .price{
+  margin: auto;
+  color: #000;
+  width: 85%;
+  padding: 43px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s linear;
+  position: relative;
+  z-index: 1;
+}
+.card__real:hover > .price{
+  background-image: linear-gradient(90deg,#8252fa 0%,#eca2f1 100%);
+  color: #fff;
+}
+.card__real .price > h4{
+  color: #000;
+  font-weight: bold;
+  font-size: 70px;
+  position: relative;
+  width: fit-content;
+  transition: all 0.3s linear;
+}
+.card__real:hover > .price > h4{
+  color: #fff;
+}
+.card__real .price h4 span{
+  font-size: 32px;
+  position: absolute;
+  left: -25px;
+  top: 4px;
+}

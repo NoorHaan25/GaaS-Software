@@ -1,0 +1,11 @@
+.impress{
+  background-image: url(../../img/impress-bg.png.webp);
+  background-size: cover;
+  padding: 300px 0;
+}
+.impress .text__header > span,
+.impress .text__header > h3,
+.impress .text__header > p,
+.impress .text__header > .features__link a{
+  color: #fff;
+}

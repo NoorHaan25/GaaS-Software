@@ -1,0 +1,39 @@
+header{
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+}
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+    padding: 25px;
+    font-size: 13px;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #8252fa;
+}
+.navbar > a:last-child{
+    background-image: linear-gradient(to right,#8252fa 0%,#eca2f1 100%) , radial-gradient(circle at top left,#8252fa,#eca2f1);
+    color: #fff;
+    padding: 12px 35px;
+    border-radius: 5px;
+}
+
+
+
+
+

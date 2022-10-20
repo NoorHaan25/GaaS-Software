@@ -1,0 +1,43 @@
+.card__footer h4{
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.card__footer p{
+  color: #777;
+  font-size: 14px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.card__footer:first-child p:last-child i{
+  font-size: 14px;
+  padding: 0 2px;
+}
+
+footer .arrow-right i{
+  margin-left: 10px;
+  background-image: linear-gradient(90deg,#8252fa 0%,#eca2f1 100%);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+footer .email-address > input{
+  width: 70%;
+  padding: 10px 5px;
+  border: none;
+}
+footer .email-address > input:focus{
+  outline: none;
+}
+.card__footer:last-child .socialmedia a{
+  color: #ccc;
+  font-size: 17px;
+  padding: 0 5px;
+  transition: color 0.3s linear;
+}
+.card__footer:last-child .socialmedia a:hover{
+  color: #0056b3;
+}

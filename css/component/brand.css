@@ -1,0 +1,15 @@
+.card-brand{
+  background-color: #fcf8ff;
+  /* background-color: #000; */
+  height: 121px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-brand img{
+  filter: grayscale(100%);
+  transition: filter 0.3s linear;
+}
+.img-brand img:hover{
+  filter: grayscale(0);
+}

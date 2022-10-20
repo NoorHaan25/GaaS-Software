@@ -1,0 +1,23 @@
+.card__clients{
+  text-align: center;
+}
+.img__clients >img{
+  width: 140px;
+}
+.card__clients h4{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.reviews i{
+  color: #ffc000;
+  font-size: 15px;
+}
+.card__clients p{
+  padding-top: 18px;
+  font-weight: bold;
+  color: #777;
+  line-height: 1.6;
+  font-size: 18px;
+  font-style: italic;
+}
